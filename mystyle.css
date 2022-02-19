@@ -85,6 +85,22 @@ nav{
     position: relative;
     bottom: -100px;
     left: 60px;
-
-
+}
+.socials{
+  display: flex;
+  margin-top:30px;
+}
+.icon{
+  width: 100px
+  height: 100px
+  background: #f8f9fa
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon img{
+  width: 28px;
+  position: relative;
+  bottom: -450px;
+  left: 80px;
 }
