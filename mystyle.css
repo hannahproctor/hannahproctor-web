@@ -5,7 +5,6 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background: #f8f9fa;
   color: #495057;
   position: relative;
 }
@@ -30,8 +29,10 @@ nav{
 .nav-links{
   text-align: right;
   background: #ffc8dd;
-  padding: 10px 30px
   border-bottom-left-radius: 18px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
 .nav-links ul li{
   list-style: none;
@@ -42,19 +43,22 @@ nav{
   color: #495057;
   text-decoration: none;
   font-size: 18px;
+
 }
 .left-sidebar{
-  width: 7%;
+  width: 5%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
   background: #ffc8dd;
+  border-radius: 10px;
+
 }
 .row{
   padding: 0 10%;
   display: flex;
-  align-items: flex-Englandpoaition: relative;
+  align-items: flex: relative;
   margin-top: 5%;
 }
 .left-column{
@@ -86,6 +90,26 @@ nav{
     bottom: -100px;
     left: 60px;
 }
+.right-column2 p{
+  color: #495057;
+  margin: 20px 0 70px;
+  position: relative;
+  bottom: -50px;
+  left: 60px;
+}
+.right-column3{
+  color: #495057;
+  margin: 20px 0 70px;
+  position: relative;
+  top: -50px;
+
+}
+.contact{
+  color: #495057;
+  margin: 20px 0 70px;
+  position: relative;
+  top: -70px;
+}
 .socials{
   display: flex;
   margin-top:30px;
@@ -93,7 +117,6 @@ nav{
 .icon{
   width: 100px
   height: 100px
-  background: #f8f9fa
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,6 +124,6 @@ nav{
 .icon img{
   width: 28px;
   position: relative;
-  bottom: -450px;
-  left: 80px;
+  bottom: -80px;
+  left: 500px;
 }
