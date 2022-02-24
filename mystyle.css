@@ -152,16 +152,9 @@ nav{
   top: -70px;
 }
 
-.right-column3 p{
-      color: #495057;
-      margin: 20px 0 70px;
-      position: relative;
-      bottom: -150px;
-      left: 100px;
-  }
-  .right-column4 p{
-    color: #495057;
-    margin: 20px 0 70px;
+  .resume{
+    margin: 5px 0 5px;
     position: relative;
-    bottom: -100px;
+    bottom: -10px;
     left: 100px;
+  }
