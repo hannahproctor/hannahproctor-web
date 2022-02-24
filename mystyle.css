@@ -29,8 +29,8 @@ nav{
 .nav-links{
   text-align: right;
   background: #B7B7A4;
-  width: 70%;
-  height: 40%;
+  width: 50%;
+  height: 80%;
 }
 
 .dropbtn {
@@ -150,3 +150,18 @@ nav{
   margin: 20px 0 70px;
   position: relative;
   top: -70px;
+}
+
+.right-column3 p{
+      color: #495057;
+      margin: 20px 0 70px;
+      position: relative;
+      bottom: -150px;
+      left: 100px;
+  }
+  .right-column4 p{
+    color: #495057;
+    margin: 20px 0 70px;
+    position: relative;
+    bottom: -100px;
+    left: 100px;
