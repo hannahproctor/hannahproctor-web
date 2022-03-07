@@ -85,4 +85,23 @@ nav ul li a:hover{
     .dropdown-icon{
       display:block;
     }
+    .row{
+      flex-direction: column-reverse;
+      margin: 50px 0;
+    }
+    .col-2{
+      flex-basis:100%;
+      margin-bottom: 50px;
+    }
+    .col-2 .me{
+      width: 77%;
+    }
+    .col-1{
+      flex-basis: 100%;
+    }
+    .col-1 h2{
+      font-size: 35px;
+    }
+    .col-1 p{
+      font-size: 15px
   }
