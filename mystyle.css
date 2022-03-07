@@ -68,7 +68,7 @@ nav ul li a:hover{
   align-items: right;
 }
 
-@media only and screen (max-width: 700px){
+@media only screen and (max-width: 700px){
 
     nav ul{
       width: 100%;
