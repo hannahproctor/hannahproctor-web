@@ -1,0 +1,30 @@
+@media screen and (max-width: 400px){
+  body{
+    background-color: yellow;
+  }
+
+.container {
+  display: grid;
+  backgroun-color: yellow;
+  padding: 20px;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+
+}
+  .header {
+    background-color: red;
+  }
+  .toc {
+    background-color: green;
+}
+.content {
+  background-color: purple;
+}
+P{
+  padding:5px;
+}
+}
+
+@media screen and (min-width: 401px){
+
+}
