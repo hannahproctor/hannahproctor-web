@@ -6,8 +6,8 @@
 .container{
   width: 100%;
   min-height: 100vh;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -17,9 +17,9 @@
   align-items: center;
 }
 .logo{
-  width: 10px;
+  width: 5px;
   cursor: pointer;
-  margin: 50px 0;
+  margin: 10px 0;
 }
 
 nav{
@@ -34,7 +34,7 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: #000;
-  font-size: 14px;
+  font-size: 20px;
 }
 nav ul li a:hover{
   color: #B7B7A4;
@@ -46,9 +46,10 @@ nav ul li a:hover{
   margin: 100px 0;
 }
 .col-1{
-  flex-basis: 60%;
+  flex-basis: 50%;
   position: relative;
   margin-left: 50px;
+  top: -150px;
 }
 .col-1 h2{
   font-size: 54px;
@@ -62,6 +63,7 @@ nav ul li a:hover{
   flex-basis: 10%;
   display:flex;
   align-items: right;
+  top: -100px;
 }
 
 @media only screen and (max-width: 700px){
