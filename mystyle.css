@@ -98,6 +98,7 @@ nav ul li a:hover{
     .col-2 .me{
       width: 77%;
       align-items: center;
+      border-radius: 30px;
     }
     .col-1{
       flex-basis: 100%;
