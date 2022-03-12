@@ -60,11 +60,11 @@ nav ul li a:hover{
 
 }
 .col-1p h3{
-  font-size: 16px;
+  font-size: 20px;
   color: #A5A58D;
 }
 .col-1p p{
-  font-size: 16px;
+  font-size: 15px;
 }
 .col-1{
   flex-basis: 50%;
@@ -73,11 +73,11 @@ nav ul li a:hover{
   top: -150px;
 }
 .col-1 h2{
-  font-size: 45px;
+  font-size: 54px;
   color: #A5A58D
 }
 .col-1 p{
-  font-size: 16px;
+  font-size: 20px;
 }
 .col-2{
   position: relative;
@@ -85,11 +85,7 @@ nav ul li a:hover{
   display:flex;
   top: -100px;
 }
-.col-2 .me{
-  width: 400px;
-  align-items: center;
-  border-radius: 30px;
-}
+
 
 .center {
   display: block;
@@ -137,7 +133,7 @@ nav ul li a:hover{
     .col-2 .me{
       width: 77%;
       align-items: center;
-      border-radius: 30px;
+  
     }
     .col-1{
       flex-basis: 100%;
