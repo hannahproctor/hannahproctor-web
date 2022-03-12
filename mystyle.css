@@ -45,6 +45,27 @@ nav ul li a:hover{
   align-items: center;
   margin: 100px 0;
 }
+
+.row_1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+.col-1p{
+  flex-basis: 50%;
+  position: relative;
+  margin-left: 50px;
+  top: -150px;
+
+}
+.col-1p h3{
+  font-size: 20px;
+  color: #A5A58D;
+}
+.col-1p p{
+  font-size: 15px;
+}
 .col-1{
   flex-basis: 50%;
   position: relative;
