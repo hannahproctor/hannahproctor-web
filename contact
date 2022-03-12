@@ -22,5 +22,8 @@
       </nav>
     </div>
 
-      <img src="img/resume2.png" alt="resume" width="600px" class="center">
-  </html>
+    <div class="row">
+      <div class="col-1">
+        <h2>Connect with me!</h2><br>
+        <p>Please feel free to reach out to me on the following platforms: <br><br>
+          
