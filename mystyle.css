@@ -60,11 +60,11 @@ nav ul li a:hover{
 
 }
 .col-1p h3{
-  font-size: 20px;
+  font-size: 16px;
   color: #A5A58D;
 }
 .col-1p p{
-  font-size: 15px;
+  font-size: 16px;
 }
 .col-1{
   flex-basis: 50%;
@@ -73,17 +73,22 @@ nav ul li a:hover{
   top: -150px;
 }
 .col-1 h2{
-  font-size: 54px;
+  font-size: 45px;
   color: #A5A58D
 }
 .col-1 p{
-  font-size: 20px;
+  font-size: 16px;
 }
 .col-2{
   position: relative;
   flex-basis: 10%;
   display:flex;
   top: -100px;
+}
+.col-2 .me{
+  width: 400px;
+  align-items: center;
+  border-radius: 30px;
 }
 
 .center {
@@ -96,11 +101,11 @@ nav ul li a:hover{
 
 @media only screen and (max-width: 700px){
 
-  .logo{
-    width: 2px;
-    cursor: pointer;
-    margin: 5px 0;
-  }
+.logo{
+  max-width:320px;
+    max-height:56px;
+}
+
 
     nav ul{
       width: 100%;
