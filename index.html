@@ -21,7 +21,10 @@
           <li><a href="https://hannahproctor.github.io/contact.html">Contact</a></li>
         </ul>
       </nav>
+      <img src="img/bars-solid.svg" class="icon" width="30px"
+      onclick="togglemenu()">
     </div>
+
 
     <div class="row">
       <div class="col-1">
@@ -38,6 +41,24 @@
 
       </div>
   </div>
+    <script>
+      var menu = document.getElementById("menu");
+
+      menu.style.maxHeight = "0px";
+      function togglemenu(){
+        if(menu.style.maxHeight == "0px")
+        {
+          menu.style.maxHeight = "130px"
+        }
+        else
+        {
+          menu.stle.maxHeight = "0px";
+        }
+      }
+
+
+
+    </script>
 
 </body>
 </html>

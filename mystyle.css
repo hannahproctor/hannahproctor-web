@@ -10,7 +10,7 @@ a:hover{
   color: #E8DAE5;
 }
 a:visited {
-  color: #000 ;
+  color: #f28482;
 }
 
 
@@ -29,9 +29,15 @@ a:visited {
   align-items: center;
 }
 .logo{
-  width: 170px;
+  width: 180px;
   cursor: pointer;
-  margin: 10px 0;
+  margin: 20px 0;
+  position: relative;
+}
+.icon{
+  width: 25px;
+  cursor: pointer;
+  display: none;
 }
 
 nav{
@@ -122,18 +128,14 @@ nav ul li a:hover{
     width: 100%;
     align-items: center;
 }
-.logo{
-  max-width:320px;
-    max-height:56px;
-    position: fixed;
-    z-index: 2;
-}
+
 
 
     nav ul{
       width: 100%;
+      background-color: #A5A58D;
       position: absolute;
-      top: 65px;
+      top: 75px;
       right: 0;
       z-index:2;
     }
@@ -148,6 +150,9 @@ nav ul li a:hover{
       font-size: 10px;
       bottom: -100px;
 
+    }
+    .icon{
+      display: block;
     }
     .row{
       flex-direction: column-reverse;
