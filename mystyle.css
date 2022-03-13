@@ -6,21 +6,24 @@
 body{
   background-color: #fff;
 }
+
+
 .container{
   width: 100%;
   min-height: 100vh;
-  padding-left: 5%;
+  padding-left: 3%;
   padding-right: 5%;
   box-sizing: border-box;
   overflow: hidden;
 }
+
 .navbar {
   width: 100%;
   display: flex;
   align-items: center;
 }
 .logo{
-  width: 5px;
+  width: 170px;
   cursor: pointer;
   margin: 10px 0;
 }
@@ -40,7 +43,7 @@ nav ul li a{
   font-size: 20px;
 }
 nav ul li a:hover{
-  color: #004b23;
+  color: #E8DAE5;
 }
 .row{
   display: flex;
@@ -81,7 +84,7 @@ nav ul li a:hover{
 }
 .col-1 h2{
   font-size: 54px;
-  color: #126782
+  color: #A5A58D;
 }
 .col-1 p{
   font-size: 20px;
