@@ -40,6 +40,7 @@ a:visited {
   display: none;
 }
 
+
 nav{
   flex: 1;
   text-align: right;
@@ -119,6 +120,14 @@ nav ul li a:hover{
   align-content: center;
   margin-left: 280px;
   width: 550px;
+}
+.wireframe{
+  align-content: center;
+  margin-left: 280px;
+  width: 550px;
+  position: relative;
+  top: -300px;
+
 }
 
 @media only screen and (max-width: 700px){
