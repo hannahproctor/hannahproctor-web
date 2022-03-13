@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+body{
+  background-color: #fff;
+}
 .container{
   width: 100%;
   min-height: 100vh;
@@ -37,7 +40,7 @@ nav ul li a{
   font-size: 20px;
 }
 nav ul li a:hover{
-  color: #B7B7A4;
+  color: #004b23;
 }
 .row{
   display: flex;
@@ -59,9 +62,13 @@ nav ul li a:hover{
   top: -150px;
 
 }
+.col-1p h1{
+  font-size: 50px;
+  color: #126782;
+}
 .col-1p h3{
   font-size: 20px;
-  color: #A5A58D;
+  color: #6d7275;
 }
 .col-1p p{
   font-size: 15px;
@@ -74,7 +81,7 @@ nav ul li a:hover{
 }
 .col-1 h2{
   font-size: 54px;
-  color: #A5A58D
+  color: #126782
 }
 .col-1 p{
   font-size: 20px;
@@ -133,14 +140,14 @@ nav ul li a:hover{
     .col-2 .me{
       width: 77%;
       align-items: center;
-  
+
     }
     .col-1{
       flex-basis: 100%;
       right: 35px;
     }
     .col-1 h2{
-      font-size: 35px;
+      font-size: 30px;
       right: 35px;
     }
     .col-1 p{
