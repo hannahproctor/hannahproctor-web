@@ -11,7 +11,7 @@
   <div class="container">
     <div class="navbar">
       <img src="img/final_logo.png" class="logo" width="200px">
-      <img src="img/bars-solid.svg" class="icon" width="30px">
+
       <nav>
         <ul id="menu">
           <li><a href="https://hannahproctor.github.io/index.html">Home</a></li>
@@ -21,6 +21,8 @@
           <li><a href="https://hannahproctor.github.io/contact.html">Contact</a></li>
         </ul>
       </nav>
+      <img src="img/bars-solid.svg" class="icon" width="30px"
+      onclick="togglemenu()">
     </div>
 
     <div class="row">
@@ -32,6 +34,24 @@
           </p>
 
       </div>
+      <script>
+        var menu = document.getElementById("menu");
+
+        menu.style.maxHeight = "0px";
+        function togglemenu(){
+          if(menu.style.maxHeight == "0px")
+          {
+            menu.style.maxHeight = "130px"
+          }
+          else
+          {
+            menu.stle.maxHeight = "0px";
+          }
+        }
+
+
+
+      </script>
 
       <div class="col-2">
         <img src="img/collage.JPG" class="me" width="500px">

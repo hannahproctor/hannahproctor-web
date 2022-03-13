@@ -129,8 +129,6 @@ nav ul li a:hover{
     align-items: center;
 }
 
-
-
     nav ul{
       width: 100%;
       background-color: #A5A58D;
@@ -153,6 +151,10 @@ nav ul li a:hover{
     }
     .icon{
       display: block;
+    }
+    #menu{
+      overflow: hidden;
+      transition: 0.5s;
     }
     .row{
       flex-direction: column-reverse;
