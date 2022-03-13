@@ -117,16 +117,16 @@ nav ul li a:hover{
 }
 .resume{
   align-content: center;
-  margin-left: 300px;
+  margin-left: 280px;
   width: 550px;
 }
 
 @media only screen and (max-width: 700px){
 .resume{
-  max-width:300px;
-    max-height:844px;
     width: 100%;
-    align-items: center;
+    float: left;
+    margin-left: 0px;
+    width:390px;
 }
 
     nav ul{
