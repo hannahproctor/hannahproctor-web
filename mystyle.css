@@ -137,6 +137,12 @@ nav ul li a:hover{
     margin-left: 0px;
     width:390px;
 }
+.wireframe{
+  width: 100%;
+  float: left;
+  margin-left: 0px;
+  width: 390px;
+}
 
     nav ul{
       width: 100%;
