@@ -3,8 +3,14 @@
   padding: 0;
 }
 
-body{
-  background-color: #fff;
+a {
+  color: #A5A58D;
+}
+a:hover{
+  color: #E8DAE5;
+}
+a:visited {
+  color: #000 ;
 }
 
 
@@ -66,8 +72,8 @@ nav ul li a:hover{
 
 }
 .col-1p h1{
-  font-size: 50px;
-  color: #126782;
+  font-size: 45px;
+  color: #A5A58D;
 }
 .col-1p h3{
   font-size: 20px;
@@ -83,11 +89,11 @@ nav ul li a:hover{
   top: -150px;
 }
 .col-1 h2{
-  font-size: 54px;
+  font-size: 45px;
   color: #A5A58D;
 }
 .col-1 p{
-  font-size: 20px;
+  font-size: 15px;
 }
 .col-2{
   position: relative;

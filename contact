@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <div class="navbar">
-      <img src="img/logo3.png" alt="logo" width="200px">
+      <img src="img/final_logo.png" class="logo" width="200px">
       <nav>
         <ul id="menu">
           <li><a href="https://hannahproctor.github.io/index.html">Home</a></li>
@@ -24,6 +24,8 @@
 
     <div class="row">
       <div class="col-1">
-        <h2>Connect with me!</h2><br>
-        <p>Please feel free to reach out to me on the following platforms: <br><br>
-          
+        <br><br><br><h2>connect with me!</h2><br><br>
+        <p>Please feel free to reach out to me in the following ways: <br><br>
+          <br>Phone: (720) 469-4291<br><br>
+          Email: hannah.proctor@colorado.edu<br><br>
+          LinkedIn: <a href="https://www.linkedin.com/in/hannah-proctor2000/">Hannah Proctor</a>
