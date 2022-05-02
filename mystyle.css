@@ -12,19 +12,18 @@ a:hover{
 a:visited {
   color: #B7B7A4;
 }
-{box-sizing:border-box}
-
 body {
-  margin: 10%;
+ margin: 10%;
 }
 
 #slider {
-  position: relative;
-  width: 400px;
-  height: 505px;
-  left: 500px;
-  overflow: hidden;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+ position: relative;
+ width: 400px;
+ height: 500px;
+ right:-400px;
+
+ overflow: hidden;
+ box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 #slider ul {
   position: relative;
@@ -39,11 +38,12 @@ body {
 #slider ul li {
   position: relative;
   height: 100%;
+
   float: left;
 }
 #slider ul li img{
   width: 400px;
-  height: 505px;
+  height: 500px;
 }
 #slider #prev, #slider #next {
   width: 50px;
@@ -70,7 +70,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow: 0;
 }
-
 .container{
   width: 100%;
   min-height: 100vh;
@@ -88,7 +87,7 @@ body {
 .logo{
   width: 180px;
   cursor: pointer;
-  margin: 20px 0;
+  margin: 0px 0;
   position: relative;
 }
 .icon{
@@ -147,10 +146,10 @@ nav ul li a:hover{
   font-size: 15px;
 }
 .col-1{
-  flex-basis: 50%;
+  flex-basis: 30%;
   position: relative;
-  margin-left: 50px;
-  top: -150px;
+  left: -0px;
+  top: -550px;
 }
 .col-1 h2{
   font-size: 45px;
