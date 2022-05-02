@@ -18,9 +18,9 @@ body {
 
 #slider {
  position: relative;
- width: 400px;
- height: 500px;
- right:-400px;
+ width: 450px;
+ height: 600px;
+ right:-600px;
 
  overflow: hidden;
  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -42,8 +42,8 @@ body {
   float: left;
 }
 #slider ul li img{
-  width: 400px;
-  height: 500px;
+  width: 450px;
+  height: 600px;
 }
 #slider #prev, #slider #next {
   width: 50px;
@@ -83,6 +83,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  margin: 0px;
 }
 .logo{
   width: 180px;
@@ -145,8 +146,19 @@ nav ul li a:hover{
 .col-1p p{
   font-size: 15px;
 }
+.footer{
+  position: relative;
+  left: 750px;
+  bottom: -50px;
+}
+.footer2{
+  position: relative;
+  bottom: -200px;
+  left: 300px;
+
+}
 .col-1{
-  flex-basis: 30%;
+  flex-basis: 50%;
   position: relative;
   left: -0px;
   top: -550px;
@@ -165,9 +177,9 @@ nav ul li a:hover{
   top: -100px;
 }
 .col-4{
-  flex-basis: 30%;
+  flex-basis: 50%;
   position: relative;
-  left: 50px;
+  left: 0px;
   top: -100px;
 }
 .col-4 h2{
