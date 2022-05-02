@@ -138,6 +138,7 @@ nav ul li a:hover{
 .col-1p h1{
   font-size: 45px;
   color: #A5A58D;
+  font-family: fantasy;
 }
 .col-1p h3{
   font-size: 20px;
@@ -157,6 +158,11 @@ nav ul li a:hover{
   left: 300px;
 
 }
+.footer3{
+  position: relative;
+  bottom: -300px;
+  left:40px;
+}
 .col-1{
   flex-basis: 50%;
   position: relative;
@@ -166,6 +172,7 @@ nav ul li a:hover{
 .col-1 h2{
   font-size: 45px;
   color: #A5A58D;
+  font-family: fantasy;
 }
 .col-1 p{
   font-size: 15px;
@@ -185,6 +192,7 @@ nav ul li a:hover{
 .col-4 h2{
   font-size: 45px;
   color: #A5A58D;
+  font-family: fantasy;
 }
 .col-4 p{
   font-size: 15px;
