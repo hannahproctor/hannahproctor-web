@@ -164,6 +164,19 @@ nav ul li a:hover{
   display:flex;
   top: -100px;
 }
+.col-4{
+  flex-basis: 30%;
+  position: relative;
+  left: 50px;
+  top: -100px;
+}
+.col-4 h2{
+  font-size: 45px;
+  color: #A5A58D;
+}
+.col-4 p{
+  font-size: 15px;
+}
 
 
 .center {
@@ -252,4 +265,16 @@ nav ul li a:hover{
     .col-1 p{
       font-size: 15px;
       right: 35px;
+    }
+    .col-4{
+      flex-basis: 30%;
+      right: 35px;
+    }
+    .col-4 h2{
+      font-size: 30px;
+      right: 35px;
+    }
+    .col-4 p{
+      font-size: 15px;
+      right: -100px;
     }
