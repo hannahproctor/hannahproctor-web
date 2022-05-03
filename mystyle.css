@@ -197,8 +197,13 @@ nav ul li a:hover{
 .col-4 p{
   font-size: 15px;
 }
+.project{
+  position: relative;
+  width: 450px;
+  height: 600px;
+  right:-600px;
 
-
+}
 .center {
   display: block;
   margin-left: auto;
