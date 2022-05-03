@@ -168,8 +168,8 @@ nav ul li a:hover{
 }
 .footer3{
   position: relative;
-  bottom: -300px;
-  left:40px;
+  bottom: -200px;
+  left:-200px;
   font-family: fantasy;
 }
 .col-1{
