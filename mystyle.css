@@ -111,6 +111,7 @@ nav ul li a{
   text-decoration: none;
   color: #000;
   font-size: 20px;
+  font-family: fantasy;
 }
 nav ul li a:hover{
   color: #E8DAE5;
@@ -141,11 +142,16 @@ nav ul li a:hover{
   font-family: fantasy;
 }
 .col-1p h3{
-  font-size: 20px;
+  font-size: 30px;
   color: #6d7275;
 }
+.picture{
+  position:relative;
+  right:-70px;
+  bottom:50px;
+}
 .col-1p p{
-  font-size: 15px;
+  font-size: 17px;
 }
 .footer{
   position: relative;
@@ -154,9 +160,9 @@ nav ul li a:hover{
   font-family: fantasy;
 }
 .footer2{
-  position: relative;
+  position:relative;
   bottom: -200px;
-  left: 250px;
+  left: 350px;
   font-family: fantasy;
 
 }
